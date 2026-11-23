@@ -1,0 +1,20 @@
+# Variables de entorno
+python-dotenv
+
+# Lectura de documentos
+pypdf
+python-docx
+
+# Chunking recursivo
+langchain-core
+langchain-text-splitters
+
+# Embeddings BGE-M3
+sentence-transformers
+
+# Base de datos vectorial
+chromadb
+
+# Modelos de lenguaje
+langchain-google-genai
+langchain-ollama

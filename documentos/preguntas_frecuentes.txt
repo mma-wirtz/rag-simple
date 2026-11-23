@@ -1,0 +1,35 @@
+FARONORTE - PREGUNTAS FRECUENTES DE SOPORTE
+Documento ficticio para la práctica RAG simple. Edición: noviembre 2026.
+
+PREGUNTA 1. ¿Qué hago si Outlook solicita la contraseña continuamente?
+RESPUESTA: Comprueba que el equipo tiene conexión a internet y que la fecha y hora son correctas. Intenta abrir el correo desde el navegador corporativo. Si funciona en el navegador pero no en Outlook, reinicia Outlook y verifica que no haya una ventana de inicio de sesión pendiente. Si el problema continúa, crea una incidencia en Mesa Faro indicando el mensaje exacto, la hora aproximada y si el correo web funciona. Nunca envíes tu contraseña ni códigos MFA en el ticket.
+
+PREGUNTA 2. ¿Qué hacer si Teams no detecta el micrófono?
+RESPUESTA: Revisa que Teams tenga permisos para usar el micrófono en la configuración del sistema. En Teams, abre Configuración > Dispositivos y elige el micrófono correcto. Realiza una llamada de prueba y comprueba que ningún otro programa esté usando el dispositivo de forma exclusiva. Si sigue fallando, registra un ticket de soporte indicando el modelo del auricular y si el micrófono funciona en otras aplicaciones.
+
+PREGUNTA 3. ¿Qué hago si la VPN no conecta desde casa?
+RESPUESTA: Comprueba primero que la conexión doméstica funciona sin VPN. Reinicia el cliente de VPN y vuelve a iniciar sesión con tu cuenta corporativa y el segundo factor. Si aparece un código de error, cópialo en el ticket de Mesa Faro, pero nunca compartas tokens ni capturas que muestren credenciales. La VPN es obligatoria para acceder a las aplicaciones internas clasificadas como restringidas. Si varias personas comunican el mismo fallo, soporte valorará si debe elevarse la prioridad.
+
+PREGUNTA 4. ¿Cómo solicito instalar una aplicación nueva?
+RESPUESTA: Abre una petición en Mesa Faro e indica nombre de la aplicación, versión deseada, necesidad de negocio y fecha prevista de uso. Sistemas comprobará compatibilidad, licenciamiento y seguridad antes de autorizar la instalación. No se permite instalar programas corporativos desde repositorios desconocidos o descargadores no aprobados. La petición no urgente suele tratarse como P4.
+
+PREGUNTA 5. ¿Qué hago si olvidé mi contraseña corporativa?
+RESPUESTA: Utiliza el procedimiento oficial de restablecimiento de cuenta. Si no puedes completarlo, crea una incidencia en Mesa Faro o llama a la extensión 410 cuando no tengas acceso al portal. El equipo de soporte verificará tu identidad antes de iniciar la recuperación. No solicites a un compañero que utilice su cuenta por ti.
+
+PREGUNTA 6. ¿Puedo compartir un documento de SharePoint con alguien externo?
+RESPUESTA: No por defecto. La compartición externa debe contar con autorización del área de seguridad, justificación y fecha de caducidad. Los enlaces públicos no están permitidos. El procedimiento detallado se encuentra en la Guía de SharePoint de FaroNorte.
+
+PREGUNTA 7. ¿Qué hago si una impresora de oficina aparece sin conexión?
+RESPUESTA: Comprueba que esté encendida y sin mensajes de error visibles. Si el problema afecta a una sola persona, reinicia la cola de impresión desde el equipo y prueba con otra impresora autorizada. Si afecta a toda la planta, registra la incidencia e indica qué impresora, planta y usuarios están afectados. No desmontes el equipo ni manipules conexiones eléctricas.
+
+PREGUNTA 8. ¿Cómo sé qué prioridad tendrá mi incidencia?
+RESPUESTA: La prioridad la determina soporte según el impacto y la urgencia. Una caída general de un servicio esencial puede ser P1; un fallo individual con alternativa suele ser P3. Para conocer plazos y ejemplos, consulta el Manual de gestión de incidencias informáticas. El usuario puede proponer una urgencia, pero soporte confirma la clasificación.
+
+PREGUNTA 9. ¿Puedo trabajar con documentos internos desde un USB personal?
+RESPUESTA: No. El uso de memorias USB no autorizadas para datos de clientes o documentos internos está prohibido por la política de seguridad de FaroNorte. Deben utilizarse las bibliotecas corporativas y los mecanismos aprobados de intercambio.
+
+PREGUNTA 10. ¿Cómo contacto con soporte si Mesa Faro está caída?
+RESPUESTA: Utiliza la extensión telefónica interna 410. Describe el servicio afectado, la hora del inicio del problema y cuántas personas tienen el mismo error. La persona de soporte registrará la incidencia cuando se restablezca el portal.
+
+FIN DE LAS PREGUNTAS FRECUENTES.
+Este documento no contiene información de salarios, presupuestos de licencias, nóminas ni datos de clientes concretos.

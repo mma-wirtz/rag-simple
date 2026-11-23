@@ -1,0 +1,25 @@
+# Entorno virtual de Python
+.venv/
+venv/
+
+# Credenciales y variables privadas
+.env
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Base de datos vectorial local
+chroma_db/
+chroma_rag/
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Configuración local del editor
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
