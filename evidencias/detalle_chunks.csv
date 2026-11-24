@@ -1,0 +1,21 @@
+﻿configuracion,pregunta,tamano_chunk,solapamiento,total_chunks,fuente_top1,similitud_top1,fuente_esperada,fuente_en_top5_con_umbral,chunks_sobre_umbral,terminos_en_contexto,fuentes_recuperadas
+500/0,Permisos SharePoint,500,0,43,guia_sharepoint.md,0.589,guia_sharepoint.md,True,5,3/3,guia_sharepoint.md; manual_incidencias.pdf; preguntas_frecuentes.txt
+500/0,Prioridades,500,0,43,preguntas_frecuentes.txt,0.651,manual_incidencias.pdf,True,5,3/4,preguntas_frecuentes.txt; manual_incidencias.pdf; politica_seguridad.docx
+500/0,Dispositivo perdido,500,0,43,politica_seguridad.docx,0.629,politica_seguridad.docx,True,5,2/2,politica_seguridad.docx; preguntas_frecuentes.txt
+500/0,Pregunta sin documentar,500,0,43,guia_sharepoint.md,0.525,No documentada,No evaluable,1,0/0,guia_sharepoint.md
+500/100,Permisos SharePoint,500,100,44,guia_sharepoint.md,0.628,guia_sharepoint.md,True,5,3/3,guia_sharepoint.md; manual_incidencias.pdf; preguntas_frecuentes.txt
+500/100,Prioridades,500,100,44,preguntas_frecuentes.txt,0.651,manual_incidencias.pdf,True,4,3/4,preguntas_frecuentes.txt; manual_incidencias.pdf
+500/100,Dispositivo perdido,500,100,44,politica_seguridad.docx,0.62,politica_seguridad.docx,True,5,2/2,politica_seguridad.docx; preguntas_frecuentes.txt
+500/100,Pregunta sin documentar,500,100,44,guia_sharepoint.md,0.525,No documentada,No evaluable,1,0/0,guia_sharepoint.md
+900/0,Permisos SharePoint,900,0,22,guia_sharepoint.md,0.627,guia_sharepoint.md,True,5,3/3,guia_sharepoint.md; politica_seguridad.docx; manual_incidencias.pdf; preguntas_frecuentes.txt
+900/0,Prioridades,900,0,22,preguntas_frecuentes.txt,0.63,manual_incidencias.pdf,True,4,3/4,preguntas_frecuentes.txt; manual_incidencias.pdf; guia_sharepoint.md
+900/0,Dispositivo perdido,900,0,22,politica_seguridad.docx,0.616,politica_seguridad.docx,True,5,2/2,politica_seguridad.docx; preguntas_frecuentes.txt
+900/0,Pregunta sin documentar,900,0,22,guia_sharepoint.md,0.532,No documentada,No evaluable,1,0/0,guia_sharepoint.md
+900/150,Permisos SharePoint,900,150,22,guia_sharepoint.md,0.627,guia_sharepoint.md,True,5,3/3,guia_sharepoint.md; politica_seguridad.docx; manual_incidencias.pdf; preguntas_frecuentes.txt
+900/150,Prioridades,900,150,22,preguntas_frecuentes.txt,0.63,manual_incidencias.pdf,True,4,4/4,preguntas_frecuentes.txt; manual_incidencias.pdf
+900/150,Dispositivo perdido,900,150,22,politica_seguridad.docx,0.616,politica_seguridad.docx,True,5,2/2,politica_seguridad.docx; preguntas_frecuentes.txt
+900/150,Pregunta sin documentar,900,150,22,guia_sharepoint.md,0.532,No documentada,No evaluable,1,0/0,guia_sharepoint.md
+1500/250,Permisos SharePoint,1500,250,15,guia_sharepoint.md,0.585,guia_sharepoint.md,True,5,3/3,guia_sharepoint.md; politica_seguridad.docx; preguntas_frecuentes.txt; manual_incidencias.pdf
+1500/250,Prioridades,1500,250,15,manual_incidencias.pdf,0.608,manual_incidencias.pdf,True,3,4/4,manual_incidencias.pdf; preguntas_frecuentes.txt
+1500/250,Dispositivo perdido,1500,250,15,politica_seguridad.docx,0.564,politica_seguridad.docx,True,5,2/2,politica_seguridad.docx; preguntas_frecuentes.txt; manual_incidencias.pdf
+1500/250,Pregunta sin documentar,1500,250,15,guia_sharepoint.md,0.538,No documentada,No evaluable,2,0/0,guia_sharepoint.md; preguntas_frecuentes.txt
