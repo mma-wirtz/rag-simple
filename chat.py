@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent
 CHROMA_DIR = BASE_DIR / "chroma_rag"
 COLECCION = "documentos_rag"
 
-TOP_K = 3
+TOP_K = 5
 UMBRAL_SIMILITUD = 0.50  # Valor inicial, pendiente de ajustar
 
 
@@ -81,10 +81,13 @@ def buscar_chunks(pregunta, modelo_emb, coleccion):
         # La colección utiliza distancia coseno
         similitud = 1 - distancia
 
+        extracto = " ".join(texto.split())[:250]
+
         print(
             f"  {metadata['doc_key']} "
             f"| similitud: {similitud:.3f}"
         )
+        print(f"  Contenido: {extracto}...\n")
 
         if similitud >= UMBRAL_SIMILITUD:
             encontrados.append({
@@ -180,11 +183,32 @@ def main():
 
             print(f"\nAsistente: {respuesta}")
 
-            print("\nFuentes consultadas:")
+            # Si el modelo no encuentra la respuesta, no mostramos fuentes
+            if "no encuentro esa información en los documentos disponibles" in respuesta.lower():
+                continue
+
+            # Evitamos mostrar varias veces el mismo archivo y página
+            fuentes_mostradas = set()
+
+            print("\nDocumentos recuperados:")
+
             for chunk in chunks:
                 meta = chunk["metadata"]
+
+                identificador = (
+                    meta["doc_key"],
+                    meta.get("page")
+                )
+
+                if identificador in fuentes_mostradas:
+                    continue
+
+                fuentes_mostradas.add(identificador)
+
                 pagina = f" (pág. {meta['page']})" if "page" in meta else ""
+
                 print(f"  - {meta['doc_key']}{pagina}")
+
 
         except Exception as error:
             print(f"\nError procesando la pregunta: {error}")
